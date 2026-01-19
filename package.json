@@ -1,0 +1,35 @@
+{
+    "name": "cs2-highlight-service",
+    "version": "1.0.0",
+    "description": "Automated CS2 demo downloader and highlight analyzer (Pure JS)",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "login": "node src/login.js"
+    },
+    "dependencies": {
+        "@laihoe/demoparser2": "^0.40.2",
+        "adm-zip": "^0.5.10",
+        "axios": "^1.6.0",
+        "bz2": "^1.0.1",
+        "csgo-sharecode": "^2.0.0",
+        "dotenv": "^17.2.3",
+        "express": "^4.18.2",
+        "express-session": "^1.17.3",
+        "fluent-ffmpeg": "^2.1.3",
+        "globaloffensive": "^2.3.1",
+        "input": "^1.0.1",
+        "inquirer": "^9.2.12",
+        "mongoose": "^8.0.0",
+        "passport": "^0.7.0",
+        "passport-steam": "^1.0.17",
+        "qrcode-terminal": "^0.12.0",
+        "steam-session": "^1.2.0",
+        "steam-totp": "^2.1.2",
+        "steam-user": "^4.28.0",
+        "steamcommunity": "^3.44.0",
+        "telegram": "^2.26.22",
+        "unbzip2-stream": "^1.4.3"
+    }
+}
